@@ -26,7 +26,7 @@ function App() {
       //e.preventDefault is needed
     e.preventDefault();
 
-    const url = 'https://api.openweathermap.org/data/2.5/weather?q={city%name}&appid=84de42e1330f56e2ab2fdfaa04a8e427';
+    const url = 'https://api.openweathermap.org/data/2.5/weather?q={city%name}&appid={your api key here}';
     const fetch_url = url.replace("{city%name}", input);
     
   // Math.round to round the decimal
